@@ -1,0 +1,12 @@
+.header-container {
+    background: #17a2b8;
+    text-align: center;
+    padding: 20px;
+}
+.firsthead {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background: #f8f9fa;
+}
