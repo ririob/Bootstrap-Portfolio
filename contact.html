@@ -4,44 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About | Richard</title>
+    <title>Richard | Contact</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Header -->
-    
-    <div class="header-container">
+  
+  <!-- NavBar -->
+  <!-- Static navbar -->   
+  <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <h1 class="firstheading"><strong> Richard  Obaseki </strong></h1>
+            </div>
+            <div id="navbar" class="navbar-row">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">About<span class="sr-only"></span></a></li>
+                    <li><a href="portfolio.html">Portfolio<span class="sr-only"></span></a></li>
+                    <li><a href="contact.html">Contact<span class="sr-only"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main body goes in a Container -->
+    <div class="container" id="main-container2">
         <div class="row">
-           <header class="firsthead">
-               <h1 id="heading1"> Richard Obaseki</h1>
-           </header>
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-head">
+                        <h1 class="secondheading">Contact me</h1>
+                    </div>
+                    <hr>
+                    <div class="panel-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="name" placeholder="Enter email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <input type="message" class="form-control" id="message" placeholder="Enter message" name="message">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="panel panel-default">
+                    <div class="sub-panel-head">
+                        <h1 class="secondheading"><strong>Connect with me</strong></h1>
+                    </div>
+                    <hr>
+                    <div class="sub-panel-body">
+                        <a href="https://github.com/ririob"> <img src="assets/imgs/githubimg.jpg" id="auth-image2" alt="github"></a>
+                        <a href="https://www.linkedin.com/in/richard-obaseki-812588165/"> <img src="assets/imgs/linkedimg.jpg" id="auth-image3" alt="linkedin"></a>
+                        <a href="https://stackoverflow.com/users/10089955/richard-obaseki"> <img src="assets/imgs/stackicon.jpg" id="auth-image4" alt="stack"></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-
-    <!-- NavBar -->    
-    
-    <nav    class="navbar-navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                
-                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"> </span>
-                <span class="icon-bar"> </span>
-                <span class="icon-bar"> </span>
-                </button>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="index.html">About<span class="sr-only">(current)</span></a></li>
-                </ul>
-            </div>
-         </div>
-    </nav>
+    <!-- Footer -->
+   <footer>
+       <div class="container">
+           <div class="row">
+               &copy;Copyright 2018 Richard Obaseki
+           </div>
+       </div>
+   </footer>
 </body>
 </html>
-           
-        

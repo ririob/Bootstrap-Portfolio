@@ -1,12 +1,111 @@
-.header-container {
-    background: #17a2b8;
-    text-align: center;
-    padding: 20px;
-}
-.firsthead {
-    color: #fff;
+/* Body */
+
+body {
+    background: url(../imgs/concrete_seamless.png);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-body {
-    background: #f8f9fa;
+
+/* NavBar */
+
+.firstheading {
+    color: #fff;
+    background: #6a6;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-row{
+    text-align: center;
+}
+
+/* Main Body */
+
+#main-container {
+    padding-top: 10px;
+}
+
+.container {
+    width: 60%;
+    max-width: 1200px;
+    height: 10px;
+    margin: 0 auto;
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #4aaa;
+}
+.secondheading {
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 15px;
+    font-weight: 800;
+}
+p {
+    line-height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+/* Footer */
+
+footer {
+    margin-bottom: 30px 0;
+    padding: 40px 0;
+    clear: both;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    background: #6a6;
+    border-top: 8px solid #666;
+    height: 20px;
+}
+
+/* Images */
+
+.auth-image {
+   width: 35%;
+}
+#auth-image2 {
+    width: 35%;
+}
+#auth-image3 {
+    width: 30%;
+}
+#auth-image4 {
+    width: 30%;
+}
+
+/* portfolio */
+
+.portitems img {
+    width: 100%;
+    border: 0 none;
+}
+#img1 {
+    width: 100%;
+}
+.portitems h3 {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
 }
