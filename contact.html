@@ -5,37 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About | Richard</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
     <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#"><img src="assets/imgs/download.jpg" width="30" height="30" class="d-inline-block align-top" alt="">Richard Obaseki</a>
+            </div>
+            <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#page-nav-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
 
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
-                <img src="assets/imgs/download.jpg" width="30" height="30" class="d-inline-block align-top" alt="">Richard Obaseki
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+            <div class="collapse navbar-collapse" id="page-nav-collapse">
+                <ul class="nav navbar-nav ml-auto">
+                    <li>
+                        <a class="nav-link" href="index.html">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li>
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item third">
+                    <li>
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
-            
-        </nav>
-    </div>
+        </div>
+    </nav>
+    
 
     <!-- Main Body -->
     <div class="container">
@@ -94,5 +97,12 @@
             </div>
         </div>
     </footer>
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>
