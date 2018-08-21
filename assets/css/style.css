@@ -1,0 +1,8 @@
+/* STYLES FOR ALL PAGES */
+body {
+    /* Typography */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    /* Visual */
+    background-image: url("../imgs/ignasi_pattern_s.png");
+}
