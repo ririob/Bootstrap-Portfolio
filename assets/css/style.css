@@ -4,5 +4,13 @@ body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
     /* Visual */
-    background-image: url("../imgs/classy.jpg");
+    background-image: url("../imgs/concrete_seamless.png");
+}
+
+.img-thumbnail {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border: solid;
+    border-color: aliceblue;
 }
