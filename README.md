@@ -5,5 +5,5 @@
 
 <!--Navbar brand not functional-->
 
-#Portfolio thumbnails not well aligned
+# Portfolio thumbnails not well aligned
 Just a basic bootstrap powered portfolio.
